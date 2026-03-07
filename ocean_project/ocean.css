@@ -1,0 +1,49 @@
+body{
+font-family: Arial;
+margin:0;
+background:#f0f8ff;
+}
+
+header{
+background:#003366;
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+.hero{
+text-align:center;
+padding:100px;
+background:url("ocean.jpg");
+background-size:cover;
+color:white;
+}
+
+form{
+width:300px;
+margin:50px auto;
+display:flex;
+flex-direction:column;
+}
+
+input{
+margin:10px 0;
+padding:10px;
+}
+
+button{
+padding:10px;
+background:#0077b6;
+color:white;
+border:none;
+}
+h2{
+            color: black;
+}
