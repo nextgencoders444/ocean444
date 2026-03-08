@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Submit Ocean Data</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="navbar">
+
+<h2>AI Ocean Data Platform</h2>
+
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="submit1.html">Submit</a>
+</div>
+
+</div>
+
+<div class="form-section">
+
+<h2>Submit Ocean Data</h2>
+
+<form>
+<form action="save_data.php" method="POST">
+
+<input type="text" name="location" placeholder="Ocean Location" required>
+
+<input type="number" name="temperature" placeholder="Water Temperature" required>
+
+<input type="text" name="species" placeholder="Species Observed" required>
+
+<button class="btn" type="submit">Submit Data</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

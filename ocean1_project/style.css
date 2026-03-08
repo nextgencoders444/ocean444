@@ -1,0 +1,90 @@
+body{
+margin:0;
+font-family:Arial;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#0b3d5c;
+color:white;
+}
+
+.nav-links a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-size:18px;
+}
+
+/* HERO SECTION */
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+
+background:
+linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+url("ocean.avif");
+
+background-size:cover;
+background-position:center;
+}
+
+/* BUTTON */
+
+.btn{
+padding:12px 25px;
+font-size:16px;
+border:none;
+background:#00bcd4;
+color:white;
+border-radius:5px;
+cursor:pointer;
+margin-top:20px;
+}
+
+.btn:hover{
+background:#0097a7;
+}
+
+/* FORM PAGE */
+
+.form-section{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+background:
+linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+url("oce2.avif");
+
+background-size:cover;
+background-position:center;
+
+color:white;
+}
+
+form{
+width:300px;
+display:flex;
+flex-direction:column;
+}
+
+input{
+padding:10px;
+margin:10px 0;
+border:none;
+border-radius:5px;
+}
