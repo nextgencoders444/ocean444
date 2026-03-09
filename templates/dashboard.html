@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ocean Data Dashboard</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="navbar">
+<h2>AI Ocean Data Platform</h2>
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/submit">Submit</a>
+<a href="/dashboard">Dashboard</a>
+<a href="/about">About</a>
+<a href="/login">Login</a>
+<a href="/logout">Logout</a>
+</div>
+</div>
+<div class="dash">
+<h2 style="text-align:center;">Submitted Ocean Data</h2>
+
+<table border="1" align="center" cellpadding="10" style="width: fit-content;">
+
+<tr>
+<th>Location</th>
+<th>Temperature</th>
+<th>Species</th>
+<th>Action</th>
+</tr>
+
+{% for row in data %}
+
+<tr>
+<td>{{ row.location }}</td>
+<td>{{ row.temperature }}</td>
+<td>{{ row.species }}</td>
+
+<td>
+<form action="/delete/{{ row.id }}" method="POST">
+<button type="submit" style="width: fit-content;">Delete</button>
+</form>
+</td>
+
+</tr>
+
+{% endfor %}
+
+</table>
+</div>
+</body>
+</html>

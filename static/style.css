@@ -1,0 +1,142 @@
+body{
+margin:0;
+font-family:Arial;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+position: sticky;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#0b3d5c;
+color:white;
+}
+
+.nav-links a{
+color:white;
+position: sticky;
+top: 0; 
+width: 100%;
+text-decoration:none;
+margin-left:20px;
+font-size:18px;
+}
+
+/* HERO SECTION */
+
+.hero{
+height:35vh;
+font-size:large;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+background-color: #8ab9be;
+
+background-size:cover;
+background-position:center;
+}
+
+/* BUTTON */
+
+.btn{
+padding:12px 25px;
+font-size:16px;
+border:none;
+background:#00bcd4;
+color:white;
+border-radius:5px;
+cursor:pointer;
+margin-top:20px;
+}
+
+.btn:hover{
+background:#0097a7;
+}
+
+/* FORM PAGE */
+
+.form-section{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+
+background:fixed
+url("oce2\ \(1\).avif");
+background-size:cover;
+background-position:center;
+
+color:white;
+}
+
+.overview{
+font-weight: 200;
+display:flex;
+font-size: large;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:rgba(0, 38, 72, 0.814);
+
+background:fixed
+url("ocean\ \(1\).avif");
+
+background-size:cover;
+background-position:center;
+}
+
+
+form{
+width:300px;
+display:flex;
+flex-direction:column;
+}
+
+input{
+padding:10px;
+margin:10px 0;
+border:none;
+border-radius:5px;
+}
+section{
+padding:100px 100px;
+text-align:center;
+}
+.ab{
+display:flex;
+padding: 100px 100px;
+font-size: large;
+flex-direction:column;
+justify-content:center;
+align-items:center;     
+text-align:center;
+color:rgba(230, 230, 222, 0.806);
+background:fixed
+url("noaa-AQx2VH2731k-unsplash.jpg");
+
+background-size:cover;
+background-position:center;
+}
+.dash{
+display:flex;
+font-size: large;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:rgb(248, 248, 240);
+
+background:fixed
+url("jesse-schoff-Ph2KtIqKs7c-unsplash.jpg");
+background-size: 100% 100%;
+background-size:cover;
+background-position:center;  
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Submit Ocean Data</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="navbar">
+
+<h2>AI Ocean Data Platform</h2>
+
+<div class="nav-links">
+<a href="/">Home</a>
+<a href="/submit">Submit</a>
+<a href="/dashboard">Dashboard</a>
+<a href="/about">About</a>
+<a href="/login">Login</a>
+<a href="/logout">Logout</a>
+</div>
+
+</div>
+
+<div class="form-section">
+
+<form action="/submit_data" method="POST">
+
+<input type="text" name="location" placeholder="Ocean Location" required>
+
+<input type="number" step="any" name="temperature" placeholder="Water Temperature(In °C)" required>
+
+<input type="text" name="species" placeholder="Species Observed" required>
+
+<button class="btn" type="submit">Submit Data</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
